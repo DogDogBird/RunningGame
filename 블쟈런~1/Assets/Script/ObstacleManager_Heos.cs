@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class ObstacleManager_Heos : MonoBehaviour
 {
-    
+
     public PlayerController player;
+    public GameObject particle;
   
     // Use this for initialization
     void Start ()
@@ -23,6 +24,7 @@ public class ObstacleManager_Heos : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
+            particle.SetActive(true);
             player.transform.position = player.GetStartPoint();
             gameObject.SetActive(false);
         }

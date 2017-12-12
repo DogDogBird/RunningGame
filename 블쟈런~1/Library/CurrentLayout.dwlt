@@ -110,7 +110,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 495}
   m_MaxSize: {x: 18008, y: 14045}
   vertical: 0
-  controlID: 20817
+  controlID: 7327
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -134,7 +134,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 20853
+  controlID: 7328
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -187,7 +187,7 @@ MonoBehaviour:
   - {fileID: 16}
   - {fileID: 17}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 2
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -211,7 +211,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 495}
   m_MaxSize: {x: 10004, y: 14045}
   vertical: 1
-  controlID: 20770
+  controlID: 7386
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -391,14 +391,14 @@ MonoBehaviour:
     width: 871
     height: 458
   m_SceneLighting: 1
-  lastFramingTime: 37417.85428830987
+  lastFramingTime: 981.8815089071535
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 456.97055, y: 210.63791, z: 0}
+    m_Target: {x: 29.76018, y: 0.65127736, z: 12.5}
     speed: 2
-    m_Value: {x: 456.97055, y: 210.63791, z: 0}
+    m_Value: {x: 29.76018, y: 0.65127736, z: 12.5}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -425,9 +425,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 780.88074
+    m_Target: 11.950697
     speed: 2
-    m_Value: 780.88074
+    m_Value: 11.950697
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -572,10 +572,10 @@ MonoBehaviour:
     width: 464
     height: 394
   m_TreeViewState:
-    scrollPos: {x: 0, y: 103}
+    scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: fe6bfbff5880fbff8a82fbff34c5fdff509fffff56e9ffff32ecffff00000000502f00005a3100009a320000e432000014330000
+    m_ExpandedIDs: aedffdffa289feff42affeff0232ffffa444ffff18f5ffff4ef6ffffc0f7fffff2f7fffff4f7ffffe2fbffff00000000fe290000922a00000a2c00005a2d0000f42d0000006600008c660000fa670000fcdc0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -635,19 +635,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Script
+    - Assets/Art/obstacle
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Script
+  - Assets/Art/obstacle
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: "C:\\Users\\Administrator\\Documents\\GitHub\\BlizzardRunner\\\uBE14\uC7C8\uB7F0~1"
+  m_LastProjectPath: "C:\\Users\\Administrator\\Documents\\GitHub\\RunningGame\\\uBE14\uC7C8\uB7F0~1"
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 6c2e0000
-    m_LastClickedID: 11884
-    m_ExpandedIDs: 00000000782d0000ca2d0000f62d0000062e00002c2e0000362e0000462e0000562e0000d62e0000e42e000000ca9a3bffffff7f
+    m_SelectedIDs: 44250000
+    m_LastClickedID: 9540
+    m_ExpandedIDs: 00000000f024000062250000e62500000626000012260000e62600004e29000050290000522900005429000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -675,7 +675,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000782d0000ca2d0000f62d0000062e00002c2e0000362e0000462e0000562e0000d62e0000e42e000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000f024000062250000e62500000626000012260000e62600004e29000050290000522900005429000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
