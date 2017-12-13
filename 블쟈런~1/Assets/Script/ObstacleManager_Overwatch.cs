@@ -7,6 +7,7 @@ public class ObstacleManager_Overwatch : MonoBehaviour {
     public PlayerController player;
 
     public GameObject theArrow;
+	public GameObject Hanzo;
 	// Use this for initialization
 	void Start () {
         player = FindObjectOfType<PlayerController>();
@@ -22,6 +23,7 @@ public class ObstacleManager_Overwatch : MonoBehaviour {
     {
         if (other.gameObject.tag == "Player")
         {
+			Hanzo.SetActive (true);
             theArrow.SetActive(true);
             gameObject.SetActive(false);
         }
