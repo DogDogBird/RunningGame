@@ -25,6 +25,7 @@ public class ObstacleManager_Heos : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             particle.SetActive(true);
+			ScoreManager.GetInstance ().SetScore (ScoreManager.GetInstance().GetScore()*2);
             player.transform.position = player.GetStartPoint();
             gameObject.SetActive(false);
         }
