@@ -5,10 +5,10 @@ using UnityEngine;
 [ExecuteInEditMode]
 public class ObstacleManager_Starcraft : MonoBehaviour {
 
-	public PlayerController thePlayer;
 	public GameManager theGameManager;
     public GameObject bomb;
     public GameObject explosion;
+	public GameObject Sound;
 
     private float wait_nuclear_sound_time;
     
@@ -16,7 +16,6 @@ public class ObstacleManager_Starcraft : MonoBehaviour {
     
 
 	void Start () {
-		thePlayer = GetComponent<PlayerController> ();
 	}
 
     
@@ -24,6 +23,7 @@ public class ObstacleManager_Starcraft : MonoBehaviour {
 	{
 		if (other.gameObject.tag == "Player")
 		{
+			Sound.SetActive (true);
             Time.timeScale = 0f;
             //nuclear launch detected sound
             Time.timeScale = 1f;

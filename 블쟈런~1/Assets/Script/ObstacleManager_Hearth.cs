@@ -5,6 +5,7 @@ using UnityEngine;
 public class ObstacleManager_Hearth : MonoBehaviour {
     private ScoreManager theScore;
     public GameObject particle;
+	public GameObject Sound;
 	// Use this for initialization
 	void Start () {
         theScore = FindObjectOfType<ScoreManager>();
@@ -18,6 +19,7 @@ public class ObstacleManager_Hearth : MonoBehaviour {
     {
         if (other.gameObject.tag == "Player")
         {
+			Sound.SetActive (true);
             particle.SetActive(true);
             theScore.PointToZero();
             gameObject.SetActive(false);

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ObstacleManager_Heos : MonoBehaviour
 {
-
+	public GameObject Sound;
     public PlayerController player;
     public GameObject particle;
   
@@ -24,6 +24,7 @@ public class ObstacleManager_Heos : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
+			Sound.SetActive (true);
             particle.SetActive(true);
 			ScoreManager.GetInstance ().SetScore (ScoreManager.GetInstance().GetScore()*2);
             player.transform.position = player.GetStartPoint();

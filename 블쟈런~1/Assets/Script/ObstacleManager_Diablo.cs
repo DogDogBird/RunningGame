@@ -5,6 +5,7 @@ using UnityEngine;
 public class ObstacleManager_Diablo : MonoBehaviour {
 	public int randomScore;
 	public int randomAge;
+	public GameObject Sound;
 	// Use this for initialization
 	void Start () {
 	}
@@ -17,7 +18,7 @@ public class ObstacleManager_Diablo : MonoBehaviour {
 	{
 		if (other.gameObject.tag == "Player") 
 		{
-
+			Sound.SetActive (true);
 			randomScore = Random.Range(-50,50);
 			randomAge = Random.Range (-5,5);
 

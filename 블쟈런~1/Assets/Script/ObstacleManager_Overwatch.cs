@@ -3,14 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ObstacleManager_Overwatch : MonoBehaviour {
-
-    public PlayerController player;
-
     public GameObject theArrow;
 	public GameObject Hanzo;
+	public GameObject Sound;
 	// Use this for initialization
 	void Start () {
-        player = FindObjectOfType<PlayerController>();
         
 	}
 	
@@ -23,6 +20,7 @@ public class ObstacleManager_Overwatch : MonoBehaviour {
     {
         if (other.gameObject.tag == "Player")
         {
+			Sound.SetActive (true);
 			Hanzo.SetActive (true);
             theArrow.SetActive(true);
             gameObject.SetActive(false);
