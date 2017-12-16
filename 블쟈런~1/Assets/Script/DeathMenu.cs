@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class DeathMenu : MonoBehaviour {
-
+	
     public Text goldAmount;
 
     public float currentScore;
@@ -32,7 +32,7 @@ public class DeathMenu : MonoBehaviour {
 
     public void CalculateGold()
     {
-        currentGold = (int)(Mathf.Pow(currentScore,(float)1.5) * 0.01);
+        currentGold = (int)(Mathf.Pow(currentScore,(float)1.2) * 0.01);
         goldAmount.text = "X " + currentGold;
         DataController.GetInstance().AddGold((int)currentGold);
     }
